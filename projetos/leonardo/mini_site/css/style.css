@@ -1,0 +1,134 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: #FEFEFA;
+}
+
+header {
+    /* background-color: #007AFF; */
+    height: 5rem;
+    padding: 1.25rem;
+    /* border-style: double; */
+    text-decoration: underline;
+}
+
+/* p .principal {
+    color: #d6ccc2;
+    text-shadow: 7px 5px 4px rgb(0, 0, 0, 0.6);
+    font-size: 1.125rem;
+}
+
+p .pPrinc {
+    color: #d6ccc2;
+    text-shadow: 7px 5px 4px rgb(0, 0, 0, 0.6);
+    font-size: 1.125rem;
+} */
+
+h1 {
+    color: #333333;
+    margin: 0 0 3.125rem 0;
+    /* -webkit-text-stroke: #000 0.05rem; */
+}
+
+.principal {
+    background-image: url('/img/');
+    /* outra forma de chamar a imagem */
+    clear: both;
+    background-size: 100%;
+    min-height: 18.75rem;
+    padding: 3.125rem 0 0 0;
+
+}
+
+.espacamento {
+    letter-spacing: 0.3rem;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+    margin-top: 1.875rem;
+}
+
+.menu a {
+    /* padding: 3.18rem; */
+    margin-left: 10rem;
+    text-decoration: none;
+    color: #C0C0C0;
+
+}
+
+.menu a:hover {
+    /* background-color: #F5F5DC; */
+    color: #848482;
+}
+
+.container {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.containerB {
+    width: 30rem;
+    margin: 0 auto;
+    border-style: double;
+    border-color: #d4d4d4;
+    border-width: 3px;
+    padding: 1rem;
+    text-align: center;
+    /* background-color: ; */
+    background-color: #FAFAFA;
+}
+
+.efeito {
+    /* background-color: white; */
+    padding: 5rem 0 5rem 0;
+    /* border-style: double; */
+    color: #333333;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    /* background-color: #007AFF; */
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    background-color: #333333;
+    color: #F8F8FF;
+
+}
+
+
+
+.textImg {
+    /* display: inline-block; */
+    margin-right: 10px;
+    margin-top: 1px;
+    text-align: justify;
+}
+
+.imgTxtCont {
+    width: 60rem;
+    margin: 0 auto;
+    max-width: 450px;
+
+}
+
+img {
+    max-height: 250px;
+    
+}
+
+/* img{
+    width: 4.95rem;
+} */

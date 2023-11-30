@@ -1,0 +1,80 @@
+*{
+    margin: 0rem;
+    pad: 0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+     background-color: #FFFFFF  ;
+}
+
+header {
+    background-color:   #dcdddf;
+    height: 5rem;
+    padding: 1.2rem;
+}
+
+p .pPrinc {
+    color: #ffff;
+    text-shadow: 7px 5px 4px rgba(0,0,0,0.6);
+    font-size: 1.125rem;
+}
+
+
+.principal {
+background-image: url('/img/') ;
+clear: both;
+background-size: 100%;
+min-height: 18.75rem;
+padding: 3.125rem 0 0 0;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+    margin-top: 1.875rem;
+}
+
+.menu a {
+    padding: 3.25rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.memu a:hover {
+    background-color: #E0BFB8;
+    color: #E0BFB8;
+}
+
+.container {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+.efeito {
+    background-color: #dcdddf;
+    padding: 5rem 0 5rem 0;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    background-color: #dcdddf;
+    color: #4d4949;
+    height: 5rem;
+    text-align: center;
+}
+
+.txtFooter {
+    margin-top: 10px;
+}
+
+.selectionHome {
+    padding: 24px;
+    color: #4d4949;
+}

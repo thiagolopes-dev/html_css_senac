@@ -1,0 +1,67 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: rgb(170, 170, 170);
+}
+
+header{
+    background-color: rgb(170, 170, 170);
+    padding: 1.25rem;
+}
+
+h1{
+    color:  rgb(89, 85, 85);
+    margin: 0 0 3.125rem 0;
+}
+
+.principal{
+    background-image: url('/img/');
+    clear: both;
+    background-size: 100%;
+    min-height: 18.75rem;
+    padding: 3.125rem 0 0 0;
+}
+
+.logo{
+    float: left;
+}
+
+.menu{
+    float: right;
+    margin-top: 1.875rem;
+}
+
+.menu a {
+    padding: 3.25rem;
+    text-decoration: none;
+    color:rgb(215 213 213);
+}
+
+.menu a:hover{
+    background-color: rgb(149, 145, 145);
+    color: rgb(205, 203, 203);
+}
+
+.container {
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.efeito {
+    color:  rgb(44, 43, 43);
+    padding: 0rem 0 5rem 0;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+    background-color:  rgb(149, 145, 145);
+    height: 3rem;
+    text-align: center;
+}
